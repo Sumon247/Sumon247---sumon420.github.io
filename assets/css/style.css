@@ -1,0 +1,107 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:1.8;
+}
+a:hover { text-decoration: none }
+/* Base CSS */
+.welcome-area{background-image: url(../img/background-img-7.jpg);}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.welcome-area {
+    height: 100%;
+    display: table;
+    width: 100%;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-area-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.welcome-area-wrap h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.welcome-area-wrap h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.email-subscribe-from {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.email-subscribe-from input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-style: italic;
+}
+
+.email-subscribe-from input[type=submit] {
+    background-color: #0ee21e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+
+.single-countdown {
+    font-size: 82px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding:20px;
+}
+
+.single-countdown span {
+    font-size: 20px;
+    line-height:30px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    
+}
